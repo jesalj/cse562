@@ -18,9 +18,15 @@ This project implements a SQL-to-Relational Algebra query engine. It takes SQL f
    - executes the query by calling the required operators like Scan, Selection, Projection, Aggregation and so on.
 
 The project supports the following SQL operators:
+
     - Scan (FROM)
+
     - Selection (WHERE)
+
     - Projection (SELECT)
+
     - Aggregation (GROUP BY)
+
     - ORDER BY (ascending and descending)
+
     - LIMIT
