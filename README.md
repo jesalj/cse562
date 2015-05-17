@@ -15,7 +15,7 @@ This project implements a SQL-to-Relational Algebra query engine. It takes SQL f
 
 4. Query Planner:
    - based on the inputs from Query Loader and Optimizer, generates an optimized query plan for each query.
-   - executes the query by calling the required operators like Scan, Selection, Projection, Aggregation and so on.
+   - executes the query as per plan by calling the required operators like Scan, Selection, Projection, Aggregation and so on.
 
 The project supports the following SQL operators:
 
